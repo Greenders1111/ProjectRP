@@ -1,0 +1,7 @@
+#Sat Feb 10 16:47:57 CET 2024
+base.0=D\:\\ROSTOVSKIYRP\\java1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+base.1=D\:\\ROSTOVSKIYRP\\java1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

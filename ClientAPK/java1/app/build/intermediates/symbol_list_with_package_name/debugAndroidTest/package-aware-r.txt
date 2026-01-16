@@ -1,0 +1,1 @@
+com.rich.game.test

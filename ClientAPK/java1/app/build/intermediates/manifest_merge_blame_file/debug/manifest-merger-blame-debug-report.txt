@@ -1,0 +1,253 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rich.game"
+4    android:versionCode="10"
+5    android:versionName="Rostovskiy v2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:5:5-68
+11-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:6:5-76
+12-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:8:5-80
+14-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:9:5-67
+15-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+16-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:10:5-83
+16-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:10:22-80
+17    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+17-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:11:5-82
+17-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:11:22-79
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:12:5-66
+18-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:12:22-63
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:13:5-79
+19-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+20-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:14:5-73
+20-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:14:22-70
+21    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+21-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:15:5-71
+21-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:15:22-68
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:16:5-68
+22-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:16:22-65
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:17:5-71
+23-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:17:22-68
+24
+25    <uses-feature android:glEsVersion="0x00020000" />
+25-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:19:5-54
+25-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:19:19-51
+26    <uses-feature
+26-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:20:5-22:36
+27        android:name="android.hardware.touchscreen"
+27-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:21:9-52
+28        android:required="false" />
+28-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:22:9-33
+29
+30    <supports-screens
+30-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:24:5-29:39
+31        android:anyDensity="true"
+31-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:25:9-34
+32        android:largeScreens="true"
+32-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:26:9-36
+33        android:normalScreens="true"
+33-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:27:9-37
+34        android:resizeable="true"
+34-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:28:9-34
+35        android:smallScreens="true" />
+35-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:29:9-36
+36
+37    <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+38-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\Ваня\.gradle\caches\transforms-3\2cdbcfe0a76d57661ad85e1cec7c1fcd\transformed\jetified-library-1.7.7\AndroidManifest.xml:9:5-77
+38-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\Ваня\.gradle\caches\transforms-3\2cdbcfe0a76d57661ad85e1cec7c1fcd\transformed\jetified-library-1.7.7\AndroidManifest.xml:9:22-74
+39
+40    <application
+40-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:31:5-87:19
+41        android:name="androidx.multidex.MultiDexApplication"
+42        android:allowBackup="true"
+42-->[com.github.Triggertrap:SeekArc:v1.1] C:\Users\Ваня\.gradle\caches\transforms-3\b6d25e1ea2c565e8a8b6be67387d883e\transformed\jetified-SeekArc-v1.1\AndroidManifest.xml:35:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.3.1] C:\Users\Ваня\.gradle\caches\transforms-3\530dd259b4c9afe7157e3fb45e0e0b2d\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:hardwareAccelerated="false"
+45-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:32:9-44
+46        android:icon="@drawable/ic_launcher"
+46-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:33:9-45
+47        android:isGame="true"
+47-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:34:9-30
+48        android:label="@string/app_name"
+48-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:35:9-41
+49        android:largeHeap="true"
+49-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:36:9-33
+50        android:logo="@drawable/adtlogo"
+50-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:37:9-41
+51        android:requestLegacyExternalStorage="true"
+51-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:39:9-52
+52        android:supportsRtl="true"
+52-->[com.github.smarteist:autoimageslider:1.4.0] C:\Users\Ваня\.gradle\caches\transforms-3\34733b0511a887ac4244cb1d1048a4f5\transformed\jetified-autoimageslider-1.4.0\AndroidManifest.xml:14:9-35
+53        android:usesCleartextTraffic="true" >
+53-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:38:9-44
+54        <activity
+54-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:40:9-44:82
+55            android:name="com.byreytiz.launcher.activity.StoryActivity"
+55-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:41:13-72
+56            android:exported="false"
+56-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:42:13-37
+57            android:screenOrientation="portrait"
+57-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:43:13-49
+58            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+58-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:44:13-80
+59
+60        <provider
+60-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:46:9-54:20
+61            android:name="androidx.core.content.FileProvider"
+61-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:47:13-62
+62            android:authorities="com.byreytiz.game.provider"
+62-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:48:13-61
+63            android:exported="false"
+63-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:49:13-37
+64            android:grantUriPermissions="true" >
+64-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:50:13-47
+65            <meta-data
+65-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:51:13-53:58
+66                android:name="android.support.FILE_PROVIDER_PATHS"
+66-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:52:17-67
+67                android:resource="@xml/provider_paths" />
+67-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:53:17-55
+68        </provider>
+69
+70        <activity
+70-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:56:9-59:92
+71            android:name="com.byreytiz.game.core.GTASA"
+71-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:57:13-56
+72            android:screenOrientation="landscape"
+72-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:58:13-50
+73            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+73-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:59:13-80
+74        <activity
+74-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:60:9-65:20
+75            android:name="com.byreytiz.launcher.activity.SplashActivity"
+75-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:61:13-73
+76            android:exported="true"
+76-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:62:13-36
+77            android:screenOrientation="portrait"
+77-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:63:13-49
+78            android:theme="@style/AppTheme.WithSplash" >
+78-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:64:13-55
+79        </activity>
+80        <activity
+80-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:66:9-75:20
+81            android:name="com.byreytiz.launcher.activity.MainActivity"
+81-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:67:13-71
+82            android:exported="true"
+82-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:68:13-36
+83            android:screenOrientation="landscape"
+83-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:69:13-50
+84            android:theme="@style/AppTheme.NoActionBar" >
+84-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:70:13-56
+85            <intent-filter>
+85-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:71:13-74:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:72:17-69
+86-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:72:25-66
+87
+88                <category android:name="android.intent.category.LAUNCHER" />
+88-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:73:17-77
+88-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:73:27-74
+89            </intent-filter>
+90        </activity>
+91        <activity
+91-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:76:9-79:59
+92            android:name="com.byreytiz.launcher.activity.LoaderActivity"
+92-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:77:13-73
+93            android:screenOrientation="landscape"
+93-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:78:13-50
+94            android:theme="@style/AppTheme.NoActionBar" />
+94-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:79:13-56
+95
+96        <meta-data
+96-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:81:9-83:35
+97            android:name="android.max_aspect"
+97-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:82:13-46
+98            android:value="2.1" />
+98-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:83:13-32
+99        <meta-data
+99-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:84:9-86:57
+100            android:name="preloaded_fonts"
+100-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:85:13-43
+101            android:resource="@array/preloaded_fonts" />
+101-->D:\ROSTOVSKIYRP\java1\app\src\main\AndroidManifest.xml:86:13-54
+102
+103        <service
+103-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Ваня\.gradle\caches\transforms-3\9e6055c7cb4dae45d814a6b1309749f0\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:29:9-35:19
+104            android:name="com.google.firebase.components.ComponentDiscoveryService"
+104-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Ваня\.gradle\caches\transforms-3\9e6055c7cb4dae45d814a6b1309749f0\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:30:13-84
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ваня\.gradle\caches\transforms-3\254a141925b0440fda935cfcdec56649\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Ваня\.gradle\caches\transforms-3\9e6055c7cb4dae45d814a6b1309749f0\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:31:13-37
+107            <meta-data
+107-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Ваня\.gradle\caches\transforms-3\9e6055c7cb4dae45d814a6b1309749f0\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
+108                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+108-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Ваня\.gradle\caches\transforms-3\9e6055c7cb4dae45d814a6b1309749f0\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:33:17-109
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Ваня\.gradle\caches\transforms-3\9e6055c7cb4dae45d814a6b1309749f0\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:34:17-82
+110        </service>
+111        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+111-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\Ваня\.gradle\caches\transforms-3\2cdbcfe0a76d57661ad85e1cec7c1fcd\transformed\jetified-library-1.7.7\AndroidManifest.xml:12:9-118
+111-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\Ваня\.gradle\caches\transforms-3\2cdbcfe0a76d57661ad85e1cec7c1fcd\transformed\jetified-library-1.7.7\AndroidManifest.xml:12:18-115
+112        <service
+112-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\Ваня\.gradle\caches\transforms-3\2cdbcfe0a76d57661ad85e1cec7c1fcd\transformed\jetified-library-1.7.7\AndroidManifest.xml:13:9-15:49
+113            android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"
+113-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\Ваня\.gradle\caches\transforms-3\2cdbcfe0a76d57661ad85e1cec7c1fcd\transformed\jetified-library-1.7.7\AndroidManifest.xml:14:13-108
+114            android:process=":filedownloader" />
+114-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\Ваня\.gradle\caches\transforms-3\2cdbcfe0a76d57661ad85e1cec7c1fcd\transformed\jetified-library-1.7.7\AndroidManifest.xml:15:13-46
+115
+116        <provider
+116-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ваня\.gradle\caches\transforms-3\254a141925b0440fda935cfcdec56649\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+117            android:name="com.google.firebase.provider.FirebaseInitProvider"
+117-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ваня\.gradle\caches\transforms-3\254a141925b0440fda935cfcdec56649\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+118            android:authorities="com.rich.game.firebaseinitprovider"
+118-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ваня\.gradle\caches\transforms-3\254a141925b0440fda935cfcdec56649\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ваня\.gradle\caches\transforms-3\254a141925b0440fda935cfcdec56649\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ваня\.gradle\caches\transforms-3\254a141925b0440fda935cfcdec56649\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ваня\.gradle\caches\transforms-3\254a141925b0440fda935cfcdec56649\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+122
+123        <activity
+123-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ваня\.gradle\caches\transforms-3\5bcbb6a25810e02d6effd45e42f35a92\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+124-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ваня\.gradle\caches\transforms-3\5bcbb6a25810e02d6effd45e42f35a92\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ваня\.gradle\caches\transforms-3\5bcbb6a25810e02d6effd45e42f35a92\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ваня\.gradle\caches\transforms-3\5bcbb6a25810e02d6effd45e42f35a92\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Ваня\.gradle\caches\transforms-3\472e56d4b6a6bc359cc9ddd1dfd1b8b7\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Ваня\.gradle\caches\transforms-3\472e56d4b6a6bc359cc9ddd1dfd1b8b7\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Ваня\.gradle\caches\transforms-3\472e56d4b6a6bc359cc9ddd1dfd1b8b7\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+131    </application>
+132
+133</manifest>
